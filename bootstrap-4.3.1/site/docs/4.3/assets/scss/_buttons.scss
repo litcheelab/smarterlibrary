@@ -4,14 +4,14 @@
 
 .btn-bd-primary {
   font-weight: 600;
-  color: $bd-purple-bright;
+  color: $red;//rgb(255, 99, 71);//$bd-purple-bright;
   border-color: $bd-purple-bright;
 
   &:hover,
   &:active {
     color: $white;
-    background-color: $bd-purple-bright;
-    border-color: $bd-purple-bright;
+    background-color:rgb(255, 99, 71);//$bd-purple-bright;
+    border-color: rgb(255, 99, 71);//$bd-purple-bright;
   }
 
   &:focus {
